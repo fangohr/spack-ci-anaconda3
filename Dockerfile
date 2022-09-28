@@ -50,7 +50,7 @@ RUN cd spack && git checkout $SPACK_VERSION
 RUN $SPACK --version
 
 # copy our package.py into the spack tree (and also example files)
-# COPY spack/package.py $SPACK_ROOT/var/spack/repos/builtin/packages/anaconda3/package.py
+COPY spack/package.py $SPACK_ROOT/var/spack/repos/builtin/packages/anaconda3/package.py
 
 # RUN ls -l $SPACK_ROOT/var/spack/repos/builtin/packages/anaconda3
 
