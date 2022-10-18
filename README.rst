@@ -13,9 +13,9 @@ The following target clones spack, and attempts to install anaconda3 through spa
 
 The instructions are embedded in `this Dockerfile <Dockerfile>`__.
 
-- |badge| Spack develop version (git head), Anaconda3
+|badge| Spack develop version (git head), Anaconda3
 
 ---------------------------------
    
-.. |badge| image: https://github.com/fangohr/spack-ci-anaconda3/actions/workflows/spack-latest.yml/badge.svg
+.. |badge| image:: https://github.com/fangohr/spack-ci-anaconda3/actions/workflows/spack-latest.yml/badge.svg
    :target: https://github.com/fangohr/spack-ci-anaconda3/actions/workflows/spack-latest.yml
